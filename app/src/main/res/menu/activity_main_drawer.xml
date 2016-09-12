@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/nav_account"
+            android:title="Konto" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/nav_report"
+            android:title="Raporty" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/nav_kpi"
+            android:title="KPI" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/nav_fav"
+            android:title="Obserwowane" />
+    </group>
+
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <item android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Ustawienia"></item>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/nav_about"
+                android:title="O aplikacji" />
+    </group>
+
+</menu>

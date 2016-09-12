@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BIMaster</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="desc">Next</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="server">Adres serwera</string>
+    <string name="instance">Nazwa instancji</string>
+    <string name="username">Login</string>
+    <string name="password">Hasło</string>
+    <string name="categories">Kategorie</string>
+    <string name="indicators">KPI</string>
+    <string name="settings">Ustawienia</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.piotrek.bimaster.ManageFragment"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/settings"/>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:layout_marginTop="@dimen/button_margin">
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/notifySwitch"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Powiadomienia o raportach"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:id="@+id/notifyLabel"
+                android:layout_margin="@dimen/activity_horizontal_margin" />
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/alertSwitch"
+                android:layout_below="@id/notifyLabel"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alerty KPI"
+                android:layout_row="1"
+                android:id="@+id/alertLabel"
+                android:layout_column="0"
+                android:layout_margin="@dimen/activity_horizontal_margin" />
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hintSwitch"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Podpowiedzi"
+                android:id="@+id/hintLabel"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_margin="@dimen/activity_horizontal_margin"/>
+
+        </GridLayout>
+    </LinearLayout>
+</FrameLayout>
